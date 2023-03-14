@@ -1,5 +1,5 @@
 # SimpleFileStorageApi
-Appropriately named, this is a simple file storage API with basic CRUD functionality. Files contain a version property that is set when file is added and incremented when a file with same name is uploaded or if content on an existing file is updated.
+Appropriately named, this repository contains a .NET 6.0 based Web API project that provides CRUD operations for binary files. The file's name, contents, and version are stored in a SQLLite Database. Files contain a version property that is set when file is added and incremented when a file with same name is uploaded or if content on an existing file is updated. The API provides Open API Swagger documentation which provides documentation of the endpoints and an interface through which the API can be used.
 
 Tech Stack Utilized:
 
