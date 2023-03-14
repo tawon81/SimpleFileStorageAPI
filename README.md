@@ -1,4 +1,4 @@
-# FileRepoServiceApi
+# SimpleFileStorageApi
 Appropriately named, this is a simple file storage API with basic CRUD functionality. Files contain a version property that is set when file is added and incremented when a file with same name is uploaded or if content on an existing file is updated.
 
 Tech Stack Utilized:
