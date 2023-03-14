@@ -23,7 +23,9 @@ PUT /File/Update/{id} - Updates an existing file based on id and IFormFile objec
 DELETE /File/Delete/{id} - Deletes a single file from the db based on id. Returns a Status200OK on success and Status400BadRequest if request fails
 
 # Instructions
-To utilize the API, you can execute it using Visual Studio. You can also do the following if VS is not available.
+To utilize the API, you can execute it using Visual Studio. 
+
+You can also do the following if VS is not available:
 
 Clone the Github repo to your local machine.
 
