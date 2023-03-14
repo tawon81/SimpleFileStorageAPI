@@ -16,7 +16,7 @@ GET File/GetFile/{id} - Returns file from the db based on id. Returns a Status20
 
 GET File/GetFiles/ - Returns a list of all files and associated info in the db. No parameters required. Returns a Status200OK on success and Status400BadRequest if request fails
 
-GET File/GetFilesByName/{FileName} - Returns a list of all files and associated info in the db. Takes a string FileName parameter and returns all files that have a matching FileName in the db. Returns a Status200OK on success and Status400BadRequest if request fails
+GET File/GetFilesByName/{FileName} - Returns a list of all files and associated info in the db. Takes a string FileName parameter and returns all files that have a matching FileName in the db. Helpful in identifying multiple versions, and max version Id.  Returns a Status200OK on success and Status400BadRequest if request fails
 
 PUT /File/Update/{id} - Updates an existing file based on id and IFormFile object. If FileName exists and file content is modified version will be incremented. Returns a Status200OK on success and Status400BadRequest if request fails.
 
