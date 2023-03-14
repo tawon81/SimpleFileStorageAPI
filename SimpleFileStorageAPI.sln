@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleFileStorageAPI", "SimpleFileStorageAPI\SimpleFileStorageAPI.csproj", "{941A9CC1-B84A-4984-8286-E895878EBB0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFileStorateAPITests", "SimpleFileStorateAPITests\SimpleFileStorateAPITests.csproj", "{4713A3CC-88E3-4896-8ADF-B87B8DC62AF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFileStorageAPITests", "SimpleFileStorateAPITests\SimpleFileStorageAPITests.csproj", "{4713A3CC-88E3-4896-8ADF-B87B8DC62AF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
