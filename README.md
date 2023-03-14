@@ -27,7 +27,9 @@ To utilize the API, you can
 execute it using Visual Studio. 
 
 SimpleFileStorageApi: .Net 6 Core Web API. Uses FileService to store the files in a SQLLite Database.
+
 Services: Service that contains all business logic for CRUD operations.
+
 Data: Database context.  
 
 SQLLite database file is stored at the following path:  
